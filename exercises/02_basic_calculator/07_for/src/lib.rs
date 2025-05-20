@@ -1,5 +1,12 @@
+
+
 // Rewrite the factorial function using a `for` loop.
 pub fn factorial(n: u32) -> u32 {
+    let mut fac = 1;
+    for i in 1..=n {
+            fac = fac * i
+    }
+    return fac;
     todo!()
 }
 
